@@ -1,0 +1,438 @@
+
+
+
+[
+  {
+    "instruction": "Explain the intuition behind AVL tree rotations.",
+    "output": "AVL tree rotations rebalance the tree after insertions or deletions by restructuring nodes while preserving BST properties."
+  },
+  {
+    "instruction": "Why are Red-Black Trees considered approximately balanced?",
+    "output": "Red-Black Trees maintain balance using coloring rules that ensure no path becomes excessively longer than others."
+  },
+  {
+    "instruction": "Explain lazy propagation in segment trees.",
+    "output": "Lazy propagation delays updates to child nodes until necessary, improving efficiency for range updates."
+  },
+  {
+    "instruction": "What problem does Heavy-Light Decomposition solve?",
+    "output": "Heavy-Light Decomposition transforms tree path queries into logarithmic segment queries."
+  },
+  {
+    "instruction": "Why are Fibonacci heaps useful in graph algorithms?",
+    "output": "Fibonacci heaps support very fast decrease-key operations, improving algorithms like Dijkstra’s."
+  },
+  {
+    "instruction": "Explain the difference between BFS and DFS.",
+    "output": "BFS explores level-by-level using a queue, while DFS explores deeply using recursion or a stack."
+  },
+  {
+    "instruction": "What is the purpose of Union-Find data structure?",
+    "output": "Union-Find efficiently manages connectivity information in disjoint sets."
+  },
+  {
+    "instruction": "Why is path compression important in DSU?",
+    "output": "Path compression flattens trees during find operations, greatly improving performance."
+  },
+  {
+    "instruction": "Explain binary lifting on trees.",
+    "output": "Binary lifting precomputes ancestors at powers of two to answer ancestor queries efficiently."
+  },
+  {
+    "instruction": "What is the intuition behind sparse tables?",
+    "output": "Sparse tables precompute answers for intervals of powers of two to support fast static range queries."
+  },
+  {
+    "instruction": "Why is merge sort stable?",
+    "output": "Merge sort preserves the order of equal elements while merging sorted halves."
+  },
+  {
+    "instruction": "Explain the sliding window technique.",
+    "output": "Sliding window maintains a moving range to optimize subarray or substring computations."
+  },
+  {
+    "instruction": "What is Mo’s algorithm used for?",
+    "output": "Mo’s algorithm processes offline range queries efficiently by minimizing pointer movement."
+  },
+  {
+    "instruction": "Why are persistent segment trees useful?",
+    "output": "Persistent segment trees preserve previous versions after updates for historical queries."
+  },
+  {
+    "instruction": "Explain topological sorting.",
+    "output": "Topological sorting orders vertices in a DAG such that every directed edge follows the order."
+  },
+  {
+    "instruction": "What is the intuition behind Dijkstra’s algorithm?",
+    "output": "Dijkstra’s algorithm repeatedly chooses the closest unvisited node to compute shortest paths."
+  },
+  {
+    "instruction": "Why does Bellman-Ford detect negative cycles?",
+    "output": "Bellman-Ford performs one extra relaxation step to check if distances can still decrease."
+  },
+  {
+    "instruction": "Explain the purpose of trie data structures.",
+    "output": "Tries efficiently store and search strings based on shared prefixes."
+  },
+  {
+    "instruction": "What is the role of hashing in algorithms?",
+    "output": "Hashing maps data to compact representations for fast lookup and insertion."
+  },
+  {
+    "instruction": "Why is dynamic programming useful?",
+    "output": "Dynamic programming avoids repeated computation by storing solutions to overlapping subproblems."
+  },
+  {
+    "instruction": "Explain memoization.",
+    "output": "Memoization stores previously computed recursive results to improve efficiency."
+  },
+  {
+    "instruction": "What is tabulation in dynamic programming?",
+    "output": "Tabulation solves smaller subproblems iteratively to build larger solutions."
+  },
+  {
+    "instruction": "Explain Kadane’s algorithm.",
+    "output": "Kadane’s algorithm finds the maximum subarray sum using incremental optimization."
+  },
+  {
+    "instruction": "Why are monotonic stacks useful?",
+    "output": "Monotonic stacks efficiently solve nearest greater or smaller element problems."
+  },
+  {
+    "instruction": "Explain the convex hull trick.",
+    "output": "Convex hull trick optimizes dynamic programming transitions involving linear functions."
+  },
+  {
+    "instruction": "What is centroid decomposition?",
+    "output": "Centroid decomposition recursively breaks trees into balanced components for efficient queries."
+  },
+  {
+    "instruction": "Explain Euler tour technique.",
+    "output": "Euler tour flattens trees into arrays to simplify subtree queries."
+  },
+  {
+    "instruction": "Why are segment trees powerful?",
+    "output": "Segment trees support fast range queries and updates on arrays."
+  },
+  {
+    "instruction": "Explain Fenwick Trees.",
+    "output": "Fenwick Trees efficiently support prefix sum updates and queries."
+  },
+  {
+    "instruction": "What is coordinate compression?",
+    "output": "Coordinate compression maps large values into smaller indexed ranges while preserving order."
+  },
+  {
+    "instruction": "Explain recursion tree analysis.",
+    "output": "Recursion tree analysis visualizes recursive calls to estimate time complexity."
+  },
+  {
+    "instruction": "Why is quicksort fast on average?",
+    "output": "Quicksort partitions arrays efficiently, leading to expected O(n log n) complexity."
+  },
+  {
+    "instruction": "Explain the role of pivot selection in quicksort.",
+    "output": "Good pivot selection avoids highly unbalanced partitions and improves performance."
+  },
+  {
+    "instruction": "What is binary search on answers?",
+    "output": "Binary search on answers searches over feasible solutions instead of indices."
+  },
+  {
+    "instruction": "Explain the two-pointer technique.",
+    "output": "Two pointers efficiently process arrays or strings by moving indices strategically."
+  },
+  {
+    "instruction": "Why are greedy algorithms sometimes optimal?",
+    "output": "Greedy algorithms work when locally optimal choices guarantee global optimality."
+  },
+  {
+    "instruction": "Explain Kruskal’s algorithm.",
+    "output": "Kruskal’s algorithm builds a minimum spanning tree using sorted edges and DSU."
+  },
+  {
+    "instruction": "What is Prim’s algorithm used for?",
+    "output": "Prim’s algorithm constructs a minimum spanning tree by expanding from a chosen node."
+  },
+  {
+    "instruction": "Explain articulation points in graphs.",
+    "output": "Articulation points are vertices whose removal disconnects the graph."
+  },
+  {
+    "instruction": "What are bridges in graphs?",
+    "output": "Bridges are edges whose removal increases the number of connected components."
+  },
+  {
+    "instruction": "Explain Kosaraju’s algorithm.",
+    "output": "Kosaraju’s algorithm finds strongly connected components using two DFS passes."
+  },
+  {
+    "instruction": "What is Tarjan’s algorithm?",
+    "output": "Tarjan’s algorithm identifies strongly connected components using low-link values."
+  },
+  {
+    "instruction": "Explain bipartite graphs.",
+    "output": "A graph is bipartite if vertices can be divided into two sets with no internal edges."
+  },
+  {
+    "instruction": "Why does BFS find shortest paths in unweighted graphs?",
+    "output": "BFS explores nodes level-by-level, ensuring the first visit gives the shortest path."
+  },
+  {
+    "instruction": "Explain matrix exponentiation.",
+    "output": "Matrix exponentiation speeds up linear recurrence computations using fast exponentiation."
+  },
+  {
+    "instruction": "What is modular exponentiation?",
+    "output": "Modular exponentiation computes large powers efficiently under modulo arithmetic."
+  },
+  {
+    "instruction": "Explain the Sieve of Eratosthenes.",
+    "output": "The sieve efficiently finds all prime numbers up to a limit by marking multiples."
+  },
+  {
+    "instruction": "Why are prefix sums useful?",
+    "output": "Prefix sums allow fast range sum queries after preprocessing."
+  },
+  {
+    "instruction": "Explain difference arrays.",
+    "output": "Difference arrays optimize range updates by storing incremental changes."
+  },
+  {
+    "instruction": "What is a deque used for?",
+    "output": "A deque supports insertion and deletion from both ends efficiently."
+  },
+  {
+    "instruction": "Explain monotonic queues.",
+    "output": "Monotonic queues maintain ordered elements for sliding window maximum or minimum queries."
+  },
+  {
+    "instruction": "Why are heaps useful?",
+    "output": "Heaps efficiently maintain minimum or maximum elements dynamically."
+  },
+  {
+    "instruction": "Explain priority queues.",
+    "output": "Priority queues retrieve the highest or lowest priority element efficiently."
+  },
+  {
+    "instruction": "What is backtracking?",
+    "output": "Backtracking systematically explores possibilities while undoing invalid choices."
+  },
+  {
+    "instruction": "Explain branch and bound.",
+    "output": "Branch and bound prunes unpromising states to optimize search problems."
+  },
+  {
+    "instruction": "What is bitmask dynamic programming?",
+    "output": "Bitmask DP represents subsets compactly for optimization over combinations."
+  },
+  {
+    "instruction": "Explain subset generation using bitmasks.",
+    "output": "Bitmasks represent inclusion or exclusion of elements to generate subsets efficiently."
+  },
+  {
+    "instruction": "Why are suffix arrays useful?",
+    "output": "Suffix arrays enable efficient string matching and lexicographic substring processing."
+  },
+  {
+    "instruction": "Explain LCP arrays.",
+    "output": "LCP arrays store longest common prefixes between adjacent suffixes."
+  },
+  {
+    "instruction": "What is KMP string matching?",
+    "output": "KMP avoids redundant comparisons using prefix-function preprocessing."
+  },
+  {
+    "instruction": "Explain Rabin-Karp algorithm.",
+    "output": "Rabin-Karp uses rolling hashes for efficient pattern matching."
+  },
+  {
+    "instruction": "What is Z-algorithm in strings?",
+    "output": "Z-algorithm computes substring matches with prefixes efficiently."
+  },
+  {
+    "instruction": "Explain Manacher’s algorithm.",
+    "output": "Manacher’s algorithm finds longest palindromic substrings in linear time."
+  },
+  {
+    "instruction": "Why are rolling hashes useful?",
+    "output": "Rolling hashes allow efficient substring comparisons and pattern matching."
+  },
+  {
+    "instruction": "Explain divide and conquer.",
+    "output": "Divide and conquer solves problems recursively by splitting into smaller subproblems."
+  },
+  {
+    "instruction": "What is recursion?",
+    "output": "Recursion solves problems by defining solutions in terms of smaller instances."
+  },
+  {
+    "instruction": "Explain tree traversals.",
+    "output": "Tree traversals systematically visit nodes using preorder, inorder, or postorder strategies."
+  },
+  {
+    "instruction": "What is level-order traversal?",
+    "output": "Level-order traversal visits tree nodes level-by-level using BFS."
+  },
+  {
+    "instruction": "Explain balanced binary trees.",
+    "output": "Balanced binary trees maintain limited height differences for efficient operations."
+  },
+  {
+    "instruction": "Why are B-Trees used in databases?",
+    "output": "B-Trees minimize disk accesses by storing many keys per node."
+  },
+  {
+    "instruction": "Explain skip lists.",
+    "output": "Skip lists use layered linked lists for probabilistic logarithmic operations."
+  },
+  {
+    "instruction": "What is a treap?",
+    "output": "A treap combines binary search tree ordering with heap priorities for balancing."
+  },
+  {
+    "instruction": "Explain splay trees.",
+    "output": "Splay trees move recently accessed nodes toward the root using rotations."
+  },
+  {
+    "instruction": "What is amortized analysis?",
+    "output": "Amortized analysis studies average operation cost over sequences of operations."
+  },
+  {
+    "instruction": "Explain dynamic arrays.",
+    "output": "Dynamic arrays resize automatically to support flexible storage."
+  },
+  {
+    "instruction": "Why does vector resizing remain efficient?",
+    "output": "Occasional costly resizes are balanced by many cheap insertions through amortized analysis."
+  },
+  {
+    "instruction": "Explain graph adjacency lists.",
+    "output": "Adjacency lists store graph edges efficiently for sparse graphs."
+  },
+  {
+    "instruction": "What is adjacency matrix representation?",
+    "output": "Adjacency matrices store graph connectivity using a 2D matrix."
+  },
+  {
+    "instruction": "Explain Floyd-Warshall algorithm.",
+    "output": "Floyd-Warshall computes shortest paths between all vertex pairs dynamically."
+  },
+  {
+    "instruction": "What is the knapsack problem?",
+    "output": "Knapsack problems optimize value selection under capacity constraints."
+  },
+  {
+    "instruction": "Explain longest increasing subsequence.",
+    "output": "LIS finds the longest strictly increasing subsequence in a sequence."
+  },
+  {
+    "instruction": "What is edit distance?",
+    "output": "Edit distance measures minimum operations needed to transform one string into another."
+  },
+  {
+    "instruction": "Explain interval scheduling.",
+    "output": "Interval scheduling selects non-overlapping intervals greedily for optimal results."
+  },
+  {
+    "instruction": "Why are binary indexed trees efficient?",
+    "output": "Binary Indexed Trees process prefix updates and queries in logarithmic time."
+  },
+  {
+    "instruction": "Explain rerooting DP on trees.",
+    "output": "Rerooting DP computes answers for every root using reusable subtree information."
+  },
+  {
+    "instruction": "What is digit DP?",
+    "output": "Digit DP solves counting problems involving digit constraints efficiently."
+  },
+  {
+    "instruction": "Explain game theory in algorithms.",
+    "output": "Game theory analyzes optimal strategies in competitive decision-making problems."
+  },
+  {
+    "instruction": "What is Sprague-Grundy theorem?",
+    "output": "Sprague-Grundy theorem converts impartial games into equivalent Nim piles."
+  },
+  {
+    "instruction": "Explain inclusion-exclusion principle.",
+    "output": "Inclusion-exclusion counts overlapping sets accurately by correcting overcounting."
+  },
+  {
+    "instruction": "Why are combinatorics important in CP?",
+    "output": "Combinatorics helps count arrangements, subsets, and probability-based structures efficiently."
+  },
+  {
+    "instruction": "Explain modular inverses.",
+    "output": "Modular inverses allow division operations under modular arithmetic."
+  },
+  {
+    "instruction": "What is fast exponentiation?",
+    "output": "Fast exponentiation computes powers in logarithmic time using repeated squaring."
+  },
+  {
+    "instruction": "Explain recursion stack overflow.",
+    "output": "Deep recursion can exceed stack memory limits and crash programs."
+  },
+  {
+    "instruction": "Why is tail recursion optimization useful?",
+    "output": "Tail recursion optimization reduces stack usage by reusing function frames."
+  },
+  {
+    "instruction": "Explain cache locality in algorithms.",
+    "output": "Cache locality improves performance by accessing nearby memory locations efficiently."
+  },
+  {
+    "instruction": "What is time complexity?",
+    "output": "Time complexity estimates how runtime grows with input size."
+  },
+  {
+    "instruction": "Explain space complexity.",
+    "output": "Space complexity measures memory usage relative to input size."
+  },
+  {
+    "instruction": "Why are logarithmic algorithms efficient?",
+    "output": "Logarithmic algorithms reduce problem size rapidly at each step."
+  },
+  {
+    "instruction": "Explain online algorithms.",
+    "output": "Online algorithms process inputs sequentially without seeing future data."
+  },
+  {
+    "instruction": "What is offline query processing?",
+    "output": "Offline query processing reorders queries to optimize computation."
+  },
+  {
+    "instruction": "Explain coordinate geometry in algorithms.",
+    "output": "Coordinate geometry algorithms solve spatial problems using mathematical properties."
+  },
+  {
+    "instruction": "What is computational geometry?",
+    "output": "Computational geometry studies algorithms for geometric objects and spatial relationships."
+  },
+  {
+    "instruction": "Explain sweep line algorithms.",
+    "output": "Sweep line algorithms process geometric events in sorted order efficiently."
+  },
+  {
+    "instruction": "What is randomization in algorithms?",
+    "output": "Randomization improves expected performance or simplifies algorithm design."
+  },
+  {
+    "instruction": "Explain probabilistic data structures.",
+    "output": "Probabilistic data structures trade exactness for speed or memory efficiency."
+  },
+  {
+    "instruction": "Why are bloom filters useful?",
+    "output": "Bloom filters efficiently test membership with small memory usage and false positives."
+  },
+  {
+    "instruction": "Explain dynamic connectivity problems.",
+    "output": "Dynamic connectivity maintains graph connectivity under updates efficiently."
+  },
+  {
+    "instruction": "What is rollback DSU?",
+    "output": "Rollback DSU supports undo operations for dynamic connectivity problems."
+  }
+]
+
